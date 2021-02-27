@@ -23,7 +23,7 @@ p {
 .menu_item {
     box-sizing: border-box;
     position: relative;
-    background-color: #999999;
+    background-color: #d5d2d2;
     border: solid 1px black;
     padding: 30px 10px 10px 10px;
     margin: 10px;

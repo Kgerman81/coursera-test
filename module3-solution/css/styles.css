@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+}
+
+/**Header**/
+#header-nav {
+    background-color: darkgray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    }
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand h1 a:hover, navbar-brand h1 a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+    background: white;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-collapse {
+    padding: 0;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.navbar-header .icon-bar {
+    border: 2px solid black; 
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.menu_item_container_1 {
+    background: darkgray;
+    padding: 0px 25px 0px 25px;
+    min-height: 1500px;
+    margin-bottom: 15px;
+}
+
+.col-centered {
+    float:none;
+    margin: 0 auto;
+}
+
+.float {
+    float: left;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 600; 
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+ul:first-child {
+    border-top: 2px solid black;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+    .menu_item_container_1 {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
